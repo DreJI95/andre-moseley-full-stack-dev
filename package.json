@@ -1,5 +1,6 @@
 {
   "name": "src",
+  "homepage": "http://dreji95.github.io/andre-moseley-full-stack-dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +12,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "http://dreji95.github.io/andre-moseley-full-stack-dev/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
