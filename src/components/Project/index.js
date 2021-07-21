@@ -44,17 +44,25 @@ const [projects] = useState([
 
     return (
         <div>
+            <h1 id="projects-header">Projects</h1>
             <div className="projects-section">
-                <h1 id="projects-header">Projects</h1>
-             { projects.map(project =>
-                <div className="project-img project-" key={`${project.projectImage}-id`}>
-                        <div className="project-text">{project.projectName}</div>
-                        <a href={project.projectLink} alt={project.projectName} rel="noreferrer" target="_blank"><img src={require(`../../assets/images/${project.projectImage}.PNG`).default} alt={`${project.projectName}`}/></a>
-                        <a className="project-text" href={project.github} alt={`${project.projectName} Github repository`} rel="noreferrer" target="_blank">GitHub repository</a>
-                </div>
-                )
-            }
-           </div>
+                <container class="projects-even-and-odd">
+                { projects.map(project =>
+                    <div className="project-img project-" key={`${project.projectImage}-id`}>
+                            <img className="project-img" src={require(`../../assets/images/${project.projectImage}.PNG`).default} alt={`${project.projectName}`}/>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <a className="project-text" href={project.projectLink} alt={project.projectName} rel="noreferrer" target="_blank">{project.projectName}</a>
+                            <br></br>
+                            <br></br>
+                            <a className="project-text" href={project.github} alt={`${project.projectName} Github repository`} rel="noreferrer" target="_blank">GitHub repository</a>
+                    </div>
+                    )
+                }
+                </container>
+            </div>
         </div>
     )
 }
