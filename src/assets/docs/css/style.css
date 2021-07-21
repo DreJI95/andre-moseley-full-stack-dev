@@ -1,0 +1,15 @@
+header, footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(69, 169, 226);
+    font-weight: bolder;
+}
+
+main {
+    padding: 30px;
+}
+
+li {
+    color: black;
+}

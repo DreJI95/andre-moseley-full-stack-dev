@@ -5,7 +5,6 @@ function Footer(props){
 
     return (
         <footer>
-        <h2 id="contact-me-header">Contact Me</h2>
         <nav>
               <div>
                   <a href="https://github.com/DreJI95" alt="GitHub profile" target="_blank">GitHub</a>
