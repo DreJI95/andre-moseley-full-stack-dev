@@ -16,7 +16,8 @@
    I have built my portfolio using React and basic css designs. I have included links to 6 of my current projects as well as my resume.
 
   # Installation 
-     N/A
+  1) Clone the repository from git. 2) Enter npm install to download the packages. 3) Enter npm start to start the app on your server. 4) The website will load up with my portfolio.
+
 
   # Usage 
      N/A
