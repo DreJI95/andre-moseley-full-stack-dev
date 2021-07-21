@@ -29,7 +29,7 @@ const [projects] = useState([
     },
     {
         projectName: 'Password Generator',
-        projectLink: 'https://dreji95.github.io/Password-Generator/',
+        projectLink: 'https://dreji95.github.io/password-generator/',
         github: 'https://github.com/DreJI95/password-generator',
         projectImage: 'Password-Generator-preview'
     },
