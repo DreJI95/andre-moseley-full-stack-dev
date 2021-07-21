@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import About from '../About';
+import Resume from '../Resume';
+import Contact from '../Contact';
 import Project from '../Project';
 
 
@@ -26,13 +29,7 @@ function Navigation(props){
          </nav>
          <main>
             {!aboutMeSelected && (<div>
-                <h1 id="about-me-header">About Me</h1>
-                <div className="about-me">
-                    <img className="about-me-image" src={require(`../../assets/images/self-photo.PNG`).default} alt='Andre-Moseley-recent-photo'/>
-                    <article className="about-me-info">
-                    I am a quick learner \& demonstrate the ability to overcome challenges for critical deliverable timelines in the software development lifecycle.<br></br> My adaptability, dedication, empathy \& enthusiasm are the key qualities that define me as a team player. <br></br> My in-depth understanding of business products and technology contribute to my success as a Quality Engineer at TD Canada Trust.
-                    </article>
-                </div>
+               <About> </About>
             </div>)}
             
             {!portfolioSelected && (<div>
@@ -40,16 +37,11 @@ function Navigation(props){
             </div>)}
 
             {!contactMeSelected && (<div>
-                Future Form
+                <Contact></Contact>
             </div>)}
 
             {!resumeSelected && (<div>
-                <div className="resume">
-                <h2 id="resum-header">Resume</h2>
-                <a href={require(`../../assets/docs/Andre Moseley - Resume.pdf`).default} alt="Andre-Moseley-Resume" target="_blank">
-                    Resume
-                </a>
-                </div>
+               <Resume></Resume>
             </div>)}
         </main>
         </div>

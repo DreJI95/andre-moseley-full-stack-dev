@@ -33,6 +33,12 @@ const [projects] = useState([
         github: 'https://github.com/DreJI95/password-generator',
         projectImage: 'Password-Generator-preview'
     },
+    {
+        projectName: 'Weather Dashboard',
+        projectLink: 'https://dreji95.github.io/weather-dashboard/',
+        github: 'https://github.com/DreJI95/weather-dashboard',
+        projectImage: 'Weather-Dashboard-preview'
+    },
 ]);
 
 
@@ -42,8 +48,8 @@ const [projects] = useState([
                 <h1 id="projects-header">Projects</h1>
              { projects.map(project =>
                 <div className="project-img project-" key={`${project.projectImage}-id`}>
-                        <a href={project.projectLink} alt={project.projectName} target="_blank"><img src={require(`../../assets/images/${project.projectImage}.PNG`).default} alt={`${project.projectName} image`}/></a>
                         <div className="project-text">{project.projectName}</div>
+                        <a href={project.projectLink} alt={project.projectName} target="_blank"><img src={require(`../../assets/images/${project.projectImage}.PNG`).default} alt={`${project.projectName} image`}/></a>
                         <a className="project-text" href={project.github} alt={`${project.projectName} Github repository`} target="_blank">GitHub repository</a>
                 </div>
                 )
