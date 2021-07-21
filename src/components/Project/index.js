@@ -49,8 +49,8 @@ const [projects] = useState([
              { projects.map(project =>
                 <div className="project-img project-" key={`${project.projectImage}-id`}>
                         <div className="project-text">{project.projectName}</div>
-                        <a href={project.projectLink} alt={project.projectName} target="_blank"><img src={require(`../../assets/images/${project.projectImage}.PNG`).default} alt={`${project.projectName} image`}/></a>
-                        <a className="project-text" href={project.github} alt={`${project.projectName} Github repository`} target="_blank">GitHub repository</a>
+                        <a href={project.projectLink} alt={project.projectName} rel="noreferrer" target="_blank"><img src={require(`../../assets/images/${project.projectImage}.PNG`).default} alt={`${project.projectName}`}/></a>
+                        <a className="project-text" href={project.github} alt={`${project.projectName} Github repository`} rel="noreferrer" target="_blank">GitHub repository</a>
                 </div>
                 )
             }

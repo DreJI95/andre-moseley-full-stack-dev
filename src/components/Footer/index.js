@@ -7,13 +7,13 @@ function Footer(props){
         <footer>
         <nav>
               <div>
-                  <a href="https://github.com/DreJI95" alt="github profile" target="_blank">GitHub</a>
+                  <a href="https://github.com/DreJI95" alt="github profile" rel="noreferrer" target="_blank">GitHub</a>
               </div>
               <div>
-                  <a href="https://www.linkedin.com/in/andremoseleyji/" alt="linkedIn profile" target="_blank">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/andremoseleyji/" alt="linkedIn profile" rel="noreferrer" target="_blank">LinkedIn</a>
               </div> 
               <div>
-                  <a href="https://stackexchange.com/users/20271637/dreji95" alt="stack exchange profile" target="_blank">StackExchange</a>
+                  <a href="https://stackexchange.com/users/20271637/dreji95" alt="stack exchange profile" rel="noreferrer" target="_blank">StackExchange</a>
               </div>
                                  
         </nav>
