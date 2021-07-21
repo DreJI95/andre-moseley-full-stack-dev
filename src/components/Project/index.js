@@ -23,7 +23,7 @@ const [projects] = useState([
     },
     {
         projectName: 'Team Builder',
-        projectLink: '../../assets/docs/index.html',
+        projectLink: require(`../../assets/docs/index.html`).default,
         github: 'https://github.com/DreJI95/team-buildify',
         projectImage: 'Team-Builder-preview'
     },
