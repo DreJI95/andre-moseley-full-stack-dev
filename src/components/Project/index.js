@@ -23,7 +23,7 @@ const [projects] = useState([
     },
     {
         projectName: 'Team Builder',
-        projectLink: ``,
+        projectLink: `https://drive.google.com/file/d/1OMVjSiHKf6sn90BsZuwUxYPRVajrH_y8/view?usp=sharing`,
         github: 'https://github.com/DreJI95/team-buildify',
         projectImage: 'Team-Builder-preview'
     },
