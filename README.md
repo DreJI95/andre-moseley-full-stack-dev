@@ -24,7 +24,7 @@
   ![image](https://user-images.githubusercontent.com/76451565/126475878-a80cfeaf-8233-41dc-b36b-6e4381dc2a64.png)
   ![image](https://user-images.githubusercontent.com/76451565/126476074-8dfd976a-301e-4c9d-9377-916fc8b959b1.png)
   ![image](https://user-images.githubusercontent.com/76451565/126476044-a0736b6a-75d1-458c-8c0c-c0aca3a7f353.png)
-  ![image](https://user-images.githubusercontent.com/76451565/126476024-c405eb2f-55a6-476f-9bd1-3a92bd5ef12d.png)
+  ![image](https://user-images.githubusercontent.com/76451565/126666522-b6964552-be1a-4a21-80e4-8adf02682e19.png)
 
   Live Link: https://andre-moseley-full-stack-dev.herokuapp.com
 
