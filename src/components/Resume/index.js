@@ -37,7 +37,6 @@ function Resume(props){
                             <br></br>
                             Back-End skills:
                             {proficiencies[0].qualityAssurance.map(proficiency => <li key={`${proficiency}-id`}>{proficiency}</li>)}
-                            <br></br>
                         </ul>
                 </div>
                 <div className="qa-other-prof">
