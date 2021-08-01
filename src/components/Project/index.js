@@ -4,6 +4,12 @@ function Project(props){
 
 const [projects] = useState([
     {
+        projectName: 'Puppy-Love',
+        projectLink: 'https://puppy-love-date.herokuapp.com/',
+        github: 'https://github.com/MAsuamah/puppy-love',
+        projectImage: 'Puppy-Love-preview'
+    },
+    {
         projectName: 'Obsidiflex',
         projectLink: 'https://jadejhagru.github.io/fitness-application/',
         github: 'https://github.com/jadejhagru/fitness-application',
@@ -32,12 +38,6 @@ const [projects] = useState([
         projectLink: 'https://dreji95.github.io/password-generator/',
         github: 'https://github.com/DreJI95/password-generator',
         projectImage: 'Password-Generator-preview'
-    },
-    {
-        projectName: 'Weather Dashboard',
-        projectLink: 'https://dreji95.github.io/weather-dashboard/',
-        github: 'https://github.com/DreJI95/weather-dashboard',
-        projectImage: 'Weather-Dashboard-preview'
     },
 ]);
 
